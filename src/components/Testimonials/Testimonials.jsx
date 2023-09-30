@@ -21,7 +21,7 @@ const Testimonials = () => {
         <div className='container'>
             <div className='testimonials-content'>
                 <div className='section-t text-center'>
-                    <h3>Customer Testimonials</h3>
+                    <h3>Our Consultants</h3>
                     <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias voluptatum, tempore dignissimos perferendis ea.</p>
                 </div>
 

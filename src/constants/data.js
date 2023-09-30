@@ -1,5 +1,5 @@
 import images from "./images";
-import {FaPaperPlane, FaEdit, FaRocket, FaShoppingCart, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
+import {FaRocket, FaDesktop, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
 import {BiDollarCircle} from "react-icons/bi";
 import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
@@ -9,40 +9,40 @@ const gradient = "url(#blue-gradient)" ;
 const services = [
     {
         id: 1,
-        icon: <FaPaperPlane style = {{ fill: gradient }} />,
-        title: "Digital Marketing",
+        icon: <FaDesktop style = {{ fill: gradient }} />,
+        title: "High Performance Computing",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 2,
         icon: <BiDollarCircle style = {{ fill: gradient }} />,
-        title: "Trade Shows",
+        title: "Project Management",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 3,
         icon: <FaRocket style = {{ fill: gradient }} />,
-        title: "Branding",
+        title: "Software Development",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
-    {
-        id: 4, 
-        icon: <FaEdit style = {{ fill: gradient }} />,
-        title: "Content Creation",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    },
-    {
-        id: 5,
-        icon: <ImMagicWand style = {{ fill: gradient }} />,
-        title: "Grpahic Design",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    },
-    {
-        id: 6,
-        icon: <FaShoppingCart style = {{ fill: gradient }} />,
-        title: "Media Buying",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    }
+    // {
+    //     id: 4, 
+    //     icon: <FaEdit style = {{ fill: gradient }} />,
+    //     title: "Content Creation",
+    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+    // },
+    // {
+    //     id: 5,
+    //     icon: <ImMagicWand style = {{ fill: gradient }} />,
+    //     title: "Grpahic Design",
+    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+    // },
+    // {
+    //     id: 6,
+    //     icon: <FaShoppingCart style = {{ fill: gradient }} />,
+    //     title: "Media Buying",
+    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+    // }
 ];
 
 const about = [
@@ -124,65 +124,65 @@ const portfolio = [
 const testimonials = [
     {
         id: 19,
-        name: "Marie Jordan",
+        name: "Bernardo Lino de Oliveira",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_1,
+        image: images.bernardo_img,
         rating: 3
     },
     {
         id: 20,
-        name: "Ann Brown",
+        name: "Sander Knutsen",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_2,
+        image: images.sander_img,
         rating: 5
     },
-    {
-        id: 21,
-        name: "Andrew Bill",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_3,
-        rating: 2
-    },
-    {
-        id: 22,
-        name: "Jason Stawer",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_4,
-        rating: 4
-    },
-    {
-        id: 23,
-        name: "Lisa Green",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_5,
-        rating: 2
-    },
-    {
-        id: 24,
-        name: "Anna Doe",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
-        image: images.customer_img_6,
-        rating: 4
-    }
+    // {
+    //     id: 21,
+    //     name: "Andrew Bill",
+    //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+    //     image: images.customer_img_3,
+    //     rating: 2
+    // },
+    // {
+    //     id: 22,
+    //     name: "Jason Stawer",
+    //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+    //     image: images.customer_img_4,
+    //     rating: 4
+    // },
+    // {
+    //     id: 23,
+    //     name: "Lisa Green",
+    //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+    //     image: images.customer_img_5,
+    //     rating: 2
+    // },
+    // {
+    //     id: 24,
+    //     name: "Anna Doe",
+    //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+    //     image: images.customer_img_6,
+    //     rating: 4
+    // }
 ]
 
 const contact = [
     {
         id: 25,
         icon: <FaPhoneAlt style = {{ fill: gradient }} />,
-        info: "+425 235 712",
+        info: "+47 94479592",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 26,
         icon: <FaEnvelopeOpen style = {{ fill: gradient }} />,
-        info: "solnhub@info.com",
+        info: "post@atlasconsulting.no",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 27,
         icon: <FaMapMarkerAlt style = {{ fill: gradient }} />,
-        info: "United Kingdom, New Street",
+        info: "Oslo, Norway",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     }
 ]

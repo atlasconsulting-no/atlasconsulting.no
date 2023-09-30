@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className='container w-100'>
             <div className='navbar-content flex fw-7'>
                 <div className='brand-and-toggler flex flex-between w-100'>
-                    <Link to = "/" className='navbar-brand fs-26'>SolnHub.</Link>
+                    <Link to = "/" className='navbar-brand fs-26'>Atlas Consulting</Link>
                     <div type = "button" className={`hamburger-menu ${navToggle ? 'hamburger-menu-change' : ""}`} onClick={navHandler}>
                         <div className='bar-top'></div>
                         <div className='bar-middle'></div>
@@ -28,13 +28,13 @@ const Navbar = () => {
                     <div className='navbar-collapse-content'>
                         <ul className='navbar-nav'>
                             <li className='text-white'>
+                                <Link to = "/">Home</Link>
+                            </li>
+                            <li className='text-white'>
+                                <Link to = "/">Services</Link>
+                            </li>
+                            <li className='text-white'>
                                 <Link to = "/">About</Link>
-                            </li>
-                            <li className='text-white'>
-                                <Link to = "/">Features</Link>
-                            </li>
-                            <li className='text-white'>
-                                <Link to = "/">Pricing</Link>
                             </li>
                             <li className='text-white'>
                                 <Link to = "/">Contacts</Link>
