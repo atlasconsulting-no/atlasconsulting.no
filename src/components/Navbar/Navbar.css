@@ -70,14 +70,14 @@
     margin-top: 2.4rem;
 }
 .navbar-btns button{
-    border: 2px solid var(--clr-robin-blue);
+    border: 2px solid var(--clr-1);
     transition: var(--transition);
 }
 .navbar-btns button span{
     margin-left: 8px;
 }
 .navbar-btns button:hover{
-    background-color: var(--clr-robin-blue);
+    background-color: var(--clr-1);
 }
 
 @media screen and (min-width: 578px){
@@ -119,7 +119,7 @@
         margin-left: 36px;
     }
     .navbar-nav li:hover{
-        color: var(--clr-crazy-blue);
+        color: var(--clr-2);
     }
     .navbar-social{
         margin-left: 60px;
@@ -131,6 +131,6 @@
         transition: var(--transition);
     }
     .navbar-social li:hover{
-        color: var(--clr-crazy-blue);
+        color: var(--clr-2);
     }
 }
