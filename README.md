@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Intructions to view the website
 
 This website was bootstrapped with [solnhub-react-js-website-tutorial-project](https://github.com/prabinmagar/solnhub-react-js-website-tutorial-project).
 
