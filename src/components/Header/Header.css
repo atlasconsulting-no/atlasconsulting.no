@@ -1,7 +1,6 @@
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url("../../assets/images/atlas_azul.jpg") center/cover no-repeat;
-    background-position: right;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("../../assets/images/atlas_azul.jpg") right/cover no-repeat;
 }
 .header-content .text-lead{
     margin: 3.2rem 0 4.9rem 0;
