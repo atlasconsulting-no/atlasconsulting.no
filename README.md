@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [solnhub-react-js-website-tutorial-project](https://github.com/prabinmagar/solnhub-react-js-website-tutorial-project).
+This website was bootstrapped with [solnhub-react-js-website-tutorial-project](https://github.com/prabinmagar/solnhub-react-js-website-tutorial-project).
 
 ## Available Scripts
 
