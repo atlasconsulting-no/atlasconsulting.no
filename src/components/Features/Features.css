@@ -6,7 +6,7 @@
     cursor: pointer;
 }
 .features .item-head-border{
-    border-bottom: 2px solid var(--clr-robin-blue);
+    border-bottom: 2px solid var(--clr-1);
 }
 .features .item-body{
     margin-top: 16px;
