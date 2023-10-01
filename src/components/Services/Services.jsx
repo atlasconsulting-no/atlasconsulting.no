@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Services.css";
+import "./Services.scss";
 import sections from "../../constants/data";
 import SingleService from './SingleService';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Contact.css";
+import "./Contact.scss";
 import images from '../../constants/images';
 import { Formik } from 'formik';
 import Info from './Info';

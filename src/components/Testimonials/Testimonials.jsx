@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Testimonials.css";
+import "./Testimonials.scss";
 import sections from '../../constants/data';
 import {MdStar} from "react-icons/md";
 

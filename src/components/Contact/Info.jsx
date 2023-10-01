@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Contact.css";
+import "./Contact.scss";
 import { BsArrowRightCircle } from 'react-icons/bs';
 import sections from '../../constants/data';
 

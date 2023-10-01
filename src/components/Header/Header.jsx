@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import "./Header.css";
+import "./Header.scss";
 import {FaPaperPlane} from "react-icons/fa";
 
 const Header = () => {

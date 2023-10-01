@@ -1,6 +1,7 @@
+@import '../../style.scss';
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../../assets/images/atlas_azul.jpg") right/cover no-repeat;
+    background: linear-gradient(#000000e6, #000000cc), url("../../assets/images/atlas_azul.jpg") right/cover no-repeat;
 }
 .header-content .text-lead{
     margin: 3.2rem 0 4.9rem 0;
@@ -10,7 +11,7 @@
     font-size: 50px;
     font-weight: 900;
     line-height: 1.2;
-    background: linear-gradient(to right, var(--clr-1), var(--clr-2));
+    background: linear-gradient(to right, #{$clr-1}, #{$clr-2});
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

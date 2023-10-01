@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Header from './components/Header/Header';
 import "./assets/js/script";
 import Services from './components/Services/Services';
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+  

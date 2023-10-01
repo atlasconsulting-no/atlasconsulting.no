@@ -1,3 +1,4 @@
+@import '../../style.scss';
 .portfolio .item{
     height: 420px;
     position: relative;
@@ -13,8 +14,8 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgb(87, 100, 222);
-    background: linear-gradient(45deg, rgba(87, 100, 222, 0.6) 0%, rgba(85, 179, 213, 0.7) 100%);
+    background: #{$clr-1};
+    background: linear-gradient(45deg, #{$clr-1} 0%, #{$clr-2} 100%);
     left: 0;
     top: 0;
 }

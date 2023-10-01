@@ -1,3 +1,4 @@
+@import '../../style.scss';
 .features .item-icon{
     transition: var(--transition);
 }
@@ -6,7 +7,7 @@
     cursor: pointer;
 }
 .features .item-head-border{
-    border-bottom: 2px solid var(--clr-1);
+    border-bottom: 2px solid #{$clr-1};
 }
 .features .item-body{
     margin-top: 16px;

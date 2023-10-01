@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Features.css";
+import "./Features.scss";
 import sections from '../../constants/data';
 import SingleFeatures from './SingleFeatures';
 
