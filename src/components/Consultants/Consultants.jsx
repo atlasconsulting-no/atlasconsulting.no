@@ -2,7 +2,7 @@ import React from 'react';
 import "./Consultants.scss";
 import sections from '../../constants/data';
 import {MdStar} from "react-icons/md";
-import {FaEnvelopeOpen} from "react-icons/fa";
+import {FaEnvelopeOpen, FaPhoneAlt, FaLinkedin} from "react-icons/fa";
 
 const gradient = "url(#color-gradient)";
 
@@ -23,7 +23,6 @@ const Consultants = () => {
             <div className='consultants-content'>
                 <div className='section-t text-center'>
                     <h3>Our Consultants</h3>
-                    <p className='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias voluptatum, tempore dignissimos perferendis ea.</p>
                 </div>
 
                 <div className='item-list grid text-white text-center'>
@@ -37,6 +36,8 @@ const Consultants = () => {
                                     </div>
                                     <b className='item-name'>{consultant.name}</b>
                                     <p className='item-text text'> <FaEnvelopeOpen style = {{ fill: gradient }} /> &nbsp; {consultant.email}</p>
+                                    <p className='item-text text'> <FaPhoneAlt style = {{ fill: gradient }} /> &nbsp; {consultant.phone}</p>
+                                    <p className='item-text text'> <FaLinkedin style = {{ fill: gradient }} /> &nbsp; {consultant.linkedin  }</p>
                                     <p className='item-text text'>{consultant.text}</p>
                                 </div>
                             )

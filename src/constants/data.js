@@ -128,6 +128,8 @@ const consultants = [
         name: "Sander Knutsen",
         image: images.sander_img,
         email: "sander@atlasconsulting.no",
+        phone: "+47 95160939",
+        linkedin: "sander-knutsen",
         text: "Sander Lorem ipsum dolor sit amet, consectetur adipisicing elits"   
         
     },
@@ -136,6 +138,8 @@ const consultants = [
         name: "Bernardo Lino de Oliveira",
         image: images.bernardo_img,
         email: "bernardo@atlasconsulting.no",
+        phone: "+47 94479592",
+        linkedin: "bernardo-lino-de-oliveira",
         text: "Bernardo Lorem ipsum dolor sit amet, consectetur adipisicing elits",        
     },
     // {
