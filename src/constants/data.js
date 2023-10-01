@@ -4,7 +4,7 @@ import {BiDollarCircle} from "react-icons/bi";
 import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
 
-const gradient = "url(#blue-gradient)" ;
+const gradient = "url(#color-gradient)" ;
 
 const services = [
     {
@@ -125,14 +125,14 @@ const testimonials = [
     {
         id: 19,
         name: "Bernardo Lino de Oliveira",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        text: "bernardo@atlasconsulting.no",
         image: images.bernardo_img,
         rating: 3
     },
     {
         id: 20,
         name: "Sander Knutsen",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing.",
+        text: "sander@atlasconsulting.no",
         image: images.sander_img,
         rating: 5
     },

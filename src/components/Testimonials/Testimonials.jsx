@@ -3,7 +3,7 @@ import "./Testimonials.scss";
 import sections from '../../constants/data';
 import {MdStar} from "react-icons/md";
 
-const gradient = "url(#blue-gradient)";
+const gradient = "url(#color-gradient)";
 
 const Testimonials = () => {
 

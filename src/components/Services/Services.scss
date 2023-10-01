@@ -13,8 +13,8 @@
     transform: translateX(-50%);
     width: 0%;
     height: 5px;
-    background: #{$clr-1};
-    background: linear-gradient(45deg, #{$clr-1} 0%, #{$clr-2} 100%);
+    background: #{$clr1};
+    background: linear-gradient(45deg, #{$clr1} 0%, #{$clr2} 100%);
     transition: var(--transition);
 }
 .services .item:hover::after{

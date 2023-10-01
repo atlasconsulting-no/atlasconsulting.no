@@ -12,7 +12,7 @@
   /* grey shades */
   --clr-grey: #8e8e8e;
   --spacing: 0.1rem;  
-  --gradient: linear-gradient(90deg, #{$clr-1} 0%, #{$clr-2} 100%);
+  --gradient: linear-gradient(90deg, #{$clr1} 0%, #{$clr2} 100%);
   --transition: all 300ms linear;
 }
 
@@ -132,7 +132,7 @@ input, textarea, select{
 /* text colors */
 .text-grey{color: var(--clr-grey);}
 .text-white{color: var(--clr-white);}
-.text-robin-blue{color: #{$clr-1};}
+.text-robin-blue{color: #{$clr1};}
 .text-black{color: var(--clr-black);}
 
 /* font weights */
@@ -168,7 +168,7 @@ input, textarea, select{
 .bg-transparent{background-color: transparent;}
 .bg-white{background-color: var(--clr-white);}
 .bg-black{background-color: var(--clr-black);}
-.bg-robin-blue{background-color: #{$clr-1};}
+.bg-robin-blue{background-color: #{$clr1};}
 .bg-dark{background-color: var(--clr-dark);}
 .bg-md-black{background-color: var(--clr-md-black);}
 
@@ -186,7 +186,7 @@ input, textarea, select{
   opacity: 0.95;
 }
 .btn-blue{
-  background-color: #{$clr-1};
+  background-color: #{$clr1};
 }
 
 /* margin */
@@ -233,8 +233,8 @@ input, textarea, select{
   transform: translateX(-50%);
   height: 5px;
   width: 60px;
-  background: #{$clr-1};
-  background: linear-gradient(45deg, #{$clr-1} 0%, #{$clr-2} 100%);
+  background: #{$clr1};
+  background: linear-gradient(45deg, #{$clr1} 0%, #{$clr2} 100%);
 }
 
 /* item */

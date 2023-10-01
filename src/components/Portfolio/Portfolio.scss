@@ -14,8 +14,8 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #{$clr-1};
-    background: linear-gradient(45deg, #{$clr-1} 0%, #{$clr-2} 100%);
+    background: #{$clr1};
+    background: linear-gradient(45deg, #{$clr1} 0%, #{$clr2} 100%);
     left: 0;
     top: 0;
 }

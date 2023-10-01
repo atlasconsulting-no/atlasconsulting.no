@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {BsPlusLg} from "react-icons/bs";
 import "./Features.scss";
 
-const gradient = "url(#blue-gradient)";
+const gradient = "url(#color-gradient)";
 
 const SingleFeatures = (feature) => {
     const [isActive, setIsActive] = useState(false);
