@@ -9,7 +9,7 @@ const Header = () => {
         <Navbar />
         <div className='container'>
             <div className='header-content text-center flex flex-column'>
-                <h1 className='text-uppercase header-title'>atlas consulting</h1>
+                <h1 className='text-uppercase header-title'>atlas <br/> consulting</h1>
                 <p className='text-lead'>Empowering Your World</p>
                 <a href = "/" className='btn header-btn btn-blue'>
                     <FaPaperPlane /> <span>get started</span>
