@@ -1,14 +1,14 @@
 @import '../../style.scss';
-.testimonials .item-list{
+.consultants .item-list{
     margin-top: 30px;
     row-gap: 30px;
 }
-.testimonials .item{
+.consultants .item{
     padding: 48px 16px;
     position: relative;
     transition: var(--transition);
 }
-.testimonials .item::after{
+.consultants .item::after{
     position: absolute;
     content: "";
     bottom: 0;
@@ -20,10 +20,10 @@
     background: linear-gradient(45deg, #{$clr1} 0%, #{$clr2} 100%);
     transition: var(--transition);
 }
-.testimonials .item:hover::after{
+.consultants .item:hover::after{
     width: 100%;
 }
-.testimonials .item-img{
+.consultants .item-img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -32,32 +32,32 @@
     margin-left: auto;
     margin-bottom: 28px;
 }
-.testimonials .item-name{
+.consultants .item-name{
     font-size: 25px;
 }
-.testimonials .item-rating{
+.consultants .item-rating{
     margin-top: 35px;
 }
-.testimonials .item-rating li{
+.consultants .item-rating li{
     margin: 0 10px;
 }
 
 @media screen and (min-width: 768px){
-    .testimonials .section-t{
+    .consultants .section-t{
         text-align: center;
     }
-    .testimonials .section-t::before{
+    .consultants .section-t::before{
         left: 50%;
         transform: translateX(-50%);
     }
-    .testimonials .item-list{
+    .consultants .item-list{
         grid-template-columns: repeat(2, 1fr);
         column-gap: 30px;
     }
 }
 
 @media screen and (min-width: 992px){
-    .testimonials .item-list{
+    .consultants .item-list{
         grid-template-columns: repeat(2, 1fr);
     }
 }

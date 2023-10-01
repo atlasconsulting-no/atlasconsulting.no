@@ -1,28 +1,29 @@
 import images from "./images";
-import {FaRocket, FaDesktop, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
+import {FaRocket, FaLaptopCode, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
 import {BiDollarCircle} from "react-icons/bi";
 import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
+import {VscChecklist} from "react-icons/vsc";
 
 const gradient = "url(#color-gradient)" ;
 
 const services = [
     {
         id: 1,
-        icon: <FaDesktop style = {{ fill: gradient }} />,
-        title: "High Performance Computing",
+        icon: <FaLaptopCode style = {{ fill: gradient }} />,
+        title: "Software Development",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 2,
-        icon: <BiDollarCircle style = {{ fill: gradient }} />,
+        icon: <VscChecklist style = {{ fill: gradient }} />,
         title: "Project Management",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 3,
         icon: <FaRocket style = {{ fill: gradient }} />,
-        title: "Software Development",
+        title: "High Performance Computing",
         text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
     },
     // {
@@ -121,20 +122,21 @@ const portfolio = [
     }
 ];
 
-const testimonials = [
+const consultants = [
     {
         id: 19,
-        name: "Bernardo Lino de Oliveira",
-        text: "bernardo@atlasconsulting.no",
-        image: images.bernardo_img,
-        rating: 3
+        name: "Sander Knutsen",
+        image: images.sander_img,
+        email: "sander@atlasconsulting.no",
+        text: "Sander Lorem ipsum dolor sit amet, consectetur adipisicing elits"   
+        
     },
     {
         id: 20,
-        name: "Sander Knutsen",
-        text: "sander@atlasconsulting.no",
-        image: images.sander_img,
-        rating: 5
+        name: "Bernardo Lino de Oliveira",
+        image: images.bernardo_img,
+        email: "bernardo@atlasconsulting.no",
+        text: "Bernardo Lorem ipsum dolor sit amet, consectetur adipisicing elits",        
     },
     // {
     //     id: 21,
@@ -187,6 +189,6 @@ const contact = [
     }
 ]
 
-const sections = {services, about, qualities, features, portfolio, testimonials, contact};
+const sections = {services, about, qualities, features, portfolio, consultants, contact};
 
 export default sections;

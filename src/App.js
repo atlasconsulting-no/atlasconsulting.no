@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Qualities from './components/Qualities/Qualities';
 import Features from './components/Features/Features';
 import Portfolio from './components/Portfolio/Portfolio';
-import Testimonials from './components/Testimonials/Testimonials';
+import Consultants from './components/Consultants/Consultants';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
@@ -19,7 +19,7 @@ function App() {
       {/* <Qualities /> */}
       {/* <Features /> */}
       {/* <Portfolio /> */}
-      <Testimonials />
+      <Consultants />
       <Contact />
       <Footer />
     </div>
