@@ -3,8 +3,8 @@
 /* variables */
 :root{
   --fnt-base: 'Jost', sans-serif;
-  --clr-robin-blue: #5764de;
-  --clr-crazy-blue: #55b3d5;
+  --clr-1: #5764de;
+  --clr-2: #55b3d5;
   --clr-black: #000;
   --clr-md-black: #111;
   --clr-dark: #191919;
@@ -133,7 +133,7 @@ input, textarea, select{
 /* text colors */
 .text-grey{color: var(--clr-grey);}
 .text-white{color: var(--clr-white);}
-.text-robin-blue{color: var(--clr-robin-blue);}
+.text-robin-blue{color: var(--clr-1);}
 .text-black{color: var(--clr-black);}
 
 /* font weights */
@@ -169,7 +169,7 @@ input, textarea, select{
 .bg-transparent{background-color: transparent;}
 .bg-white{background-color: var(--clr-white);}
 .bg-black{background-color: var(--clr-black);}
-.bg-robin-blue{background-color: var(--clr-robin-blue);}
+.bg-robin-blue{background-color: var(--clr-1);}
 .bg-dark{background-color: var(--clr-dark);}
 .bg-md-black{background-color: var(--clr-md-black);}
 
@@ -187,7 +187,7 @@ input, textarea, select{
   opacity: 0.95;
 }
 .btn-blue{
-  background-color: var(--clr-robin-blue);
+  background-color: var(--clr-1);
 }
 
 /* margin */
