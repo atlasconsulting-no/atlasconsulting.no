@@ -35,7 +35,7 @@ const Consultants = () => {
                                     <div className='item-img'>
                                         <img src = {consultant.image} alt = "" />
                                     </div>
-                                    <h4 className='item-name'>{consultant.name}</h4>
+                                    <b className='item-name'>{consultant.name}</b>
                                     <p className='item-text text'> <FaEnvelopeOpen style = {{ fill: gradient }} /> &nbsp; {consultant.email}</p>
                                     <p className='item-text text'>{consultant.text}</p>
                                 </div>
