@@ -12,7 +12,7 @@ const services = [
         id: 1,
         icon: <FaLaptopCode style = {{ fill: gradient }} />,
         title: "Software Development",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "Lorem software is cool ipsum dolor sit mattis amet consectetur adipiscing"
     },
     {
         id: 2,
