@@ -31,15 +31,17 @@ const Navbar = () => {
                                 <Link to = "/">Home</Link>
                             </li>
                             <li className='text-white'>
-                                <Link to = "/">Services</Link>
-                            </li>
-                            <li className='text-white'>
                                 <Link to = "/">About</Link>
                             </li>
                             <li className='text-white'>
-                                <Link to = "/">Contacts</Link>
+                                <Link to = "/">Services</Link>
+                            </li>
+                            <li className='text-white'>
+                                <Link to = "/">Consultants</Link>
                             </li>
                         </ul>
+                        
+                        {/*
                         <ul className='navbar-social flex'>
                             <li className='text-white'>
                                 <Link to = "" className='flex flex-center'><FaTwitter /></Link>
@@ -51,9 +53,12 @@ const Navbar = () => {
                                 <Link to = "" className='flex flex-center'><FaVimeoV /></Link>
                             </li>
                         </ul>
+                        */}
+                        {/*
                         <div className='navbar-btns'>
                             <button type = "button" className='btn'><IoMdRocket /> <span>get started</span></button>
                         </div>
+                        */}
                     </div>
                 </div>
             </div>
