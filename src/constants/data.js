@@ -12,19 +12,19 @@ const services = [
         id: 1,
         icon: <FaLaptopCode style = {{ fill: gradient }} />,
         title: "Software Development",
-        text: "Lorem software is cool ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "Creating tailored solutions to your needs"
     },
     {
         id: 2,
         icon: <VscChecklist style = {{ fill: gradient }} />,
         title: "Project Management",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "Our consultants can help you realize value and avoid cost and budget overruns"
     },
     {
         id: 3,
         icon: <FaRocket style = {{ fill: gradient }} />,
         title: "High Performance Computing",
-        text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
+        text: "Achieve unmatched computational efficiency for your time sensitive application"
     },
     // {
     //     id: 4, 
@@ -128,7 +128,7 @@ const consultants = [
         name: "Sander Knutsen",
         image: images.sander_img,
         email: "sander@atlasconsulting.no",
-        phone: "+47 95160939",
+        phone: "+47 951 60 939",
         linkedin: "sander-knutsen-8b6b941a4",
         text: "Sander is a skilled scrum master and IT-project manager. He also has experience in product innovation and corporate entrepreneurship."   
         
@@ -138,7 +138,7 @@ const consultants = [
         name: "Bernardo Lino de Oliveira",
         image: images.bernardo_img,
         email: "bernardo@atlasconsulting.no",
-        phone: "+47 94479592",
+        phone: "+47 944 79 592",
         linkedin: "bernardo-lino-de-oliveira-a844943a",
         text: "Bernardo is an experienced IT consultant with a proven track record in the software industry and a Ph.D. in Scientific Computing, emphasizing his expertise in computational sciences and dedication to sustainable technology solutions during five years in the renewable energy sector.",        
     },
