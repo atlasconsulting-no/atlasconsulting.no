@@ -130,7 +130,7 @@ const consultants = [
         email: "sander@atlasconsulting.no",
         phone: "+47 95160939",
         linkedin: "sander-knutsen",
-        text: "Sander Lorem ipsum dolor sit amet, consectetur adipisicing elits"   
+        text: "Sander is a skilled scrum master and IT-project manager. He also has experience in product innovation and corporate entrepreneurship."   
         
     },
     {
@@ -140,7 +140,7 @@ const consultants = [
         email: "bernardo@atlasconsulting.no",
         phone: "+47 94479592",
         linkedin: "bernardo-lino-de-oliveira",
-        text: "Bernardo Lorem ipsum dolor sit amet, consectetur adipisicing elits",        
+        text: "Bernardo is an experienced IT consultant with a proven track record in the software industry and a Ph.D. in Scientific Computing, emphasizing his expertise in computational sciences and dedication to sustainable technology solutions during five years in the renewable energy sector.",        
     },
     // {
     //     id: 21,

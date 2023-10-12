@@ -14,8 +14,8 @@ const About = () => {
                     <div className='section-t'>
                         <h3 className='text-start'>About Us</h3>
                     </div>
-                    <p className = "text text-start">Bla bla bla ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui eum at unde ipsa quibusdam sunt incidunt voluptates dicta ab provident doloremque perferendis ad voluptatem mollitia amet magnam, hic aliquam cupiditate blanditiis quas eos neque saepe? Quas expedita cupiditate et sint nesciunt, ipsum eos reiciendis cumque. At provident ab veritatis.</p>
-                    <p className='text text-start'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur nobis laudantium nesciunt maxime tenetur illo.</p>
+                    <p className = "text text-start">We are a team of dedicated and experienced IT professionals, united by a common goal - to empower businesses through technology. We are experts in data analytics, digital innovation and project management.</p>
+                    <p className='text text-start'>We believe that the best consultants are those who enjoy their work and who strive to not only develop software, but also to develop themselves. Through this, we aim to foster a culture of continuous improvement that benefits not only our team but also you.</p>
                 </div>
             </div>
         </div>
