@@ -26,30 +26,30 @@ const Consultants = () => {
                 </div>
 
                 <div className='item-list grid text-white text-center'>
-    {
-        sections.consultants.map(consultant => {
-            showRating(consultant.rating);
-            return (
-                <div className='item translate-effect bg-dark' key={consultant.id}>
-                    <div className='item-img'>
-                        <img src={consultant.image} alt="" />
-                    </div>
-                    <b className='item-name'>{consultant.name}</b>
-                    <p className='item-text text'> <FaEnvelopeOpen style={{ fill: gradient }} /> &nbsp; {consultant.email}</p>
-                    <p className='item-text text'> <FaPhoneAlt style={{ fill: gradient }} /> &nbsp; {consultant.phone}</p>
-                    {/* Adding a clickable LinkedIn link */}
-                    <p className='item-text text'>
-                        <FaLinkedin style={{ fill: gradient }} /> &nbsp;
-                        <a href={`https://www.linkedin.com/in/${consultant.linkedin}`} target="_blank" rel="noopener noreferrer">
-                            {consultant.name}
-                        </a>
-                    </p>
-                    <p className='item-text text'>{consultant.text}</p>
+                    {
+                        sections.consultants.map(consultant => {
+                            showRating(consultant.rating);
+                            return (
+                                <div className='item translate-effect bg-dark' key={consultant.id}>
+                                    <div className='item-img'>
+                                        <img src={consultant.image} alt="" />
+                                    </div>
+                                    <b className='item-name'>{consultant.name}</b>
+                                    <p className='item-text text'><a href={`mailto:${consultant.email}`}><FaEnvelopeOpen style={{ fill: gradient }} />&nbsp; {consultant.email}</a></p>
+                                    <p className='item-text text'> <FaPhoneAlt style={{ fill: gradient }} /> &nbsp; {consultant.phone}</p>
+                                    {/* Adding a clickable LinkedIn link */}
+                                    <p className='item-text text'>
+                                        <FaLinkedin style={{ fill: gradient }} /> &nbsp;
+                                        <a href={`https://www.linkedin.com/in/${consultant.linkedin}`} target="_blank" rel="noopener noreferrer">
+                                            {consultant.name}
+                                        </a>
+                                    </p>
+                                    <p className='item-text text'>{consultant.text}</p>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
-            )
-        })
-    }
-</div>
 
             </div>
         </div>
