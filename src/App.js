@@ -13,13 +13,13 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <Services />
+      <Header id='home'/>
+      <About id='about'/>
+      <Services id='services'/>
       {/* <Qualities /> */}
       {/* <Features /> */}
       {/* <Portfolio /> */}
-      <Consultants />
+      <Consultants id='consultants'/>
       {/* <Contact /> */}
       <Footer />
     </div>
