@@ -10,15 +10,24 @@ const Navbar = () => {
     }
 
     const scrollToSection = (sectionId) => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+        if (sectionId === 'home') {
+            // Scroll to the top of the page (if "home" is the top)
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        } else {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
         }
         // Close the mobile menu if it's open
         if (navToggle) {
             setNavToggle(false);
         }
     }
+    
 
     return (
         <nav className='navbar w-100 flex'>
