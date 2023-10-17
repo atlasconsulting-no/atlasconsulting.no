@@ -1,17 +1,17 @@
-.about-content{
+.about-content {
     row-gap: 40px;
-}
-
-@media screen and (min-width: 768px){
-    .about-content{
-        text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .about-content {
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      column-gap: 60px;
+      flex-direction: row; /* Revert back to row direction for larger screens */
     }
-}
-
-@media screen and (min-width: 992px){
-    .about-content{
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        column-gap: 60px;
-    }
-}
+  }
+  
