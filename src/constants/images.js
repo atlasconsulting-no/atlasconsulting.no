@@ -1,5 +1,5 @@
-import header_main_img from "../assets/images/atlas_statue.jpg";
-import about_main_img from "../assets/images/atlas_statue.jpg";
+import header_main_img from "../assets/images/bilde 22.jpg";
+import about_main_img from "../assets/images/bilde 22.jpg";
 import form_main_img from "../assets/images/form_main_img.jpg";
 import professionals_main_img from "../assets/images/professionals_main_img.jpg";
 import video_cover_img from "../assets/images/video_cover_img.jpg";

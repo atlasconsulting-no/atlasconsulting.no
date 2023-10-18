@@ -10,9 +10,9 @@ const SingleService = ({service}) => {
         </span>
         <h4 className='item-title fs-25'>{service.title}</h4>
         <p className='fs-19 text'>{service.text}</p>
-        <a href = "/" className='item-link text-grey'>
-            <BsArrowRightCircle size = {30} />
-        </a>
+        {/*<a href = "/" className='item-link text-grey'>
+            <BsArrowRightCircle size = {30} />    REMOVING THE ARROW TO REMOVE MISUNDERSTANDING
+          </a>*/}
     </div>
   )
 }
