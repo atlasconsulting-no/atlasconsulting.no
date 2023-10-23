@@ -23,20 +23,26 @@ const Navbar = () => {
                 element.scrollIntoView({ behavior: 'smooth' });
             }
         }
-        // Close the mobile menu if it's open
         if (navToggle) {
             setNavToggle(false);
         }
     }
-    
+
+    const moveToTop = () => {
+        // Scroll to the top of the page without smooth scrolling
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant'
+        });
+    }
 
     return (
         <nav className='navbar w-100 flex'>
             <div className='container w-100'>
                 <div className='navbar-content flex fw-7'>
                     <div className='brand-and-toggler flex flex-between w-100'>
-                        <Link to="/" className='navbar-brand'>
-                            <img src={images.logo_img} alt="" />
+                        <Link to="/" className='navbar-brand' onClick={moveToTop}>
+                            <img src={images.logo_img} alt="" onClick={moveToTop} />
                         </Link>
                         <div type="button" className={`hamburger-menu ${navToggle ? 'hamburger-menu-change' : ""}`} onClick={navHandler}>
                             <div className='bar-top'></div>
@@ -44,7 +50,6 @@ const Navbar = () => {
                             <div className='bar-bottom'></div>
                         </div>
                     </div>
-
                     <div className={`navbar-collapse ${navToggle ? 'show-navbar-collapse' : ""}`}>
                         <div className='navbar-collapse-content'>
                             <ul className='navbar-nav'>
