@@ -12,12 +12,12 @@ const services = [
         id: 1,
         icon: <FaLaptopCode style = {{ fill: gradient }} />,
         title: "Software Development",
-        text: "Creating tailored solutions to your needs"
+        text: "Designing and developing software solutions tailored to your needs."
     },
     {
         id: 2,
         icon: <VscChecklist style = {{ fill: gradient }} />,
-        title: "Project Management",
+        title: "Project Management and Agile Coaching",
         text: "Our consultants can help you realize value and avoid cost and budget overruns"
     },
     {
@@ -130,7 +130,7 @@ const consultants = [
         email: "sander@atlasconsulting.no",
         phone: "+47 951 60 939",
         linkedin: "sander-knutsen-8b6b941a4",
-        text: "Sander is a skilled scrum master and IT-project manager. He also has experience in product innovation and corporate entrepreneurship."   
+        text: "Sander holds a masters degree in Digital Economy and Management. He is always up to date on how the newest tech- and ESG trends will impact business. Sander is also a skilled Scrum Master and IT-project manager and has experience in corporate entrepreneurship."   
         
     },
     {
