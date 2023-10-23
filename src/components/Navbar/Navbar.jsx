@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.scss";
+import images from '../../constants/images';
 
 const Navbar = () => {
     const [navToggle, setNavToggle] = useState(false);
@@ -34,7 +35,9 @@ const Navbar = () => {
             <div className='container w-100'>
                 <div className='navbar-content flex fw-7'>
                     <div className='brand-and-toggler flex flex-between w-100'>
-                        <Link to="/" className='navbar-brand fs-26'>Atlas Consulting</Link>
+                        <Link to="/" className='navbar-brand'>
+                            <img src={images.logo_img} alt="" />
+                        </Link>
                         <div type="button" className={`hamburger-menu ${navToggle ? 'hamburger-menu-change' : ""}`} onClick={navHandler}>
                             <div className='bar-top'></div>
                             <div className='bar-middle'></div>
