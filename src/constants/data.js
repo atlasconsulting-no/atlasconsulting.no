@@ -12,7 +12,7 @@ const services = [
         id: 1,
         icon: <FaLaptopCode style = {{ fill: gradient }} />,
         title: "Software Development",
-        text: "Design and develop software solutions tailored to your particular needs"
+        text: "Design and develop software solutions tailored to your particularneeds"
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ const services = [
         id: 3,
         icon: <FaRocket style = {{ fill: gradient }} />,
         title: "High Performance Computing",
-        text: "Optimize computational output for time and memory sensitive applications"
+        text: "Optimize computational efficiency for your time and memory sensitive applications"
     },
     // {
     //     id: 4, 
@@ -130,7 +130,7 @@ const consultants = [
         email: "sander@atlasconsulting.no",
         phone: "+47 951 60 939",
         linkedin: "sander-knutsen-8b6b941a4",
-        text: "Sander holds a masters degree in Digital Economy and Management. He is always up to date on how the newest tech- and ESG trends will impact business. Sander is also a skilled Scrum Master and IT-project manager and has experience in corporate entrepreneurship."   
+        text: "Sander holds a masters degree in Digital Economy and Management. He is always update on how the latest tech- and ESG trends will impact business. Sander is also a skilled Scrum Master and IT-project manager and has experience in corporate entrepreneurship."   
         
     },
     {
@@ -140,7 +140,7 @@ const consultants = [
         email: "bernardo@atlasconsulting.no",
         phone: "+47 944 79 592",
         linkedin: "bernardo-lino-de-oliveira-a844943a",
-        text: "Bernardo is an experienced IT consultant with a proven track record in the software industry and a Ph.D. in Scientific Computing, emphasizing his expertise in computational sciences and dedication to sustainable technology solutions during five years in the renewable energy sector.",        
+        text: "Bernardo has a strong background in software development and mathematical modelling. He holds a PhD in Scientific Computing and a track record in multiple fields. This includes extensive experience in the energy sector, bridging the gap between technical teams, business and end users.",        
     },
     // {
     //     id: 21,
