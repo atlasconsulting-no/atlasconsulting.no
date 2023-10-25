@@ -8,7 +8,7 @@ const SingleService = ({service}) => {
         <span className='item-icon'>
             {service.icon}
         </span>
-        <h4 className='item-title fs-25'>{service.title}</h4>
+        <h4 className='item-title fs-27'>{service.title}</h4>
         <p className='fs-19 text'>{service.text}</p>
         {/*<a href = "/" className='item-link text-grey'>
             <BsArrowRightCircle size = {30} />    REMOVING THE ARROW TO REMOVE MISUNDERSTANDING

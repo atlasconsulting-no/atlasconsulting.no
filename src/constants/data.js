@@ -12,19 +12,19 @@ const services = [
         id: 1,
         icon: <FaLaptopCode style = {{ fill: gradient }} />,
         title: "Software Development",
-        text: "Designing and developing software solutions tailored to your needs."
+        text: "Design and develop software solutions tailored to your particular needs"
     },
     {
         id: 2,
         icon: <VscChecklist style = {{ fill: gradient }} />,
-        title: "Project Management and Agile Coaching",
-        text: "Our consultants can help you realize value and avoid cost and budget overruns"
+        title: "Project Management",
+        text: "Realize value, avoid cost and time overruns with Agile best practices"
     },
     {
         id: 3,
         icon: <FaRocket style = {{ fill: gradient }} />,
         title: "High Performance Computing",
-        text: "Achieve unmatched computational efficiency for your time sensitive application"
+        text: "Optimize computational output for time and memory sensitive applications"
     },
     // {
     //     id: 4, 
