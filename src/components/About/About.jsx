@@ -14,16 +14,14 @@ const About = () => {
             <div className="section-t">
               <h3 className="text-start">About Us</h3>
             </div>
-            <p className="text text-start">
-              We are a team of dedicated and experienced IT professionals, united
-              by a common goal - to empower businesses through technology. We are
-              experts in data analytics, digital innovation and project management.
-            </p>
-            <p className="text text-start">
+            <p className="text text-justify">
+              We are a team of dedicated IT professionals, united
+              by goal - empowering businesses through technology. Offering
+              services in data analytics, digital innovation and project management, 
+              we foster a culture of continuous improvement that benefits our teams
+              and clients.
               We believe that the best consultants are those who enjoy their work
-              and who strive to not only develop software, but also to develop
-              themselves. Through this, we aim to foster a culture of continuous
-              improvement that benefits not only our team but also you.
+              and strive to continuously develop high quality software and themselves.
             </p>
           </div>
         </div>
