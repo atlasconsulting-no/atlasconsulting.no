@@ -7,14 +7,24 @@
     background-color: var(--clr-black);
     z-index: 999;
 }
-.navbar-brand{
+.navbar-brand {
+    display: flex;
+    align-items: center;
     color: var(--clr-white);
 }
 
 .navbar-brand img {
-    max-width: 160px; /* Adjust the value as needed */
-    max-height: 96px; /* Adjust the value as needed */
+    max-width: 160px;
+    max-height: 96px;
 }
+
+.navbar-brand div {
+    white-space: nowrap; /* Prevent text from wrapping onto the next line */
+    margin-left: 10px; /* Add some spacing between the image and text */
+}
+
+
+
 
 .hamburger-menu{
     display: flex;
