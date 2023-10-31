@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <p className="text text-justify">
               We are a team of dedicated IT professionals, united
-              by goal - empowering businesses through technology. Offering
+              by a goal - empowering businesses through technology. Offering
               services in data analytics, digital innovation and project management, 
               we foster a culture of continuous improvement that benefits our teams
               and clients.

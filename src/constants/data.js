@@ -12,7 +12,7 @@ const services = [
         id: 1,
         icon: <FaLaptopCode style = {{ fill: gradient }} />,
         title: "Software Development",
-        text: "Design and develop software solutions tailored to your particularneeds"
+        text: "Design and develop software solutions tailored to your particular needs"
     },
     {
         id: 2,
