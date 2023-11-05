@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/atlasconsulting-no.github.io/static/css/main.43e3b57f.css",
-    "main.js": "/atlasconsulting-no.github.io/static/js/main.921555ac.js",
+    "main.css": "/atlasconsulting-no.github.io/static/css/main.dcc8a697.css",
+    "main.js": "/atlasconsulting-no.github.io/static/js/main.8d4d385d.js",
     "static/media/AdobeStock_339503989.jpeg": "/atlasconsulting-no.github.io/static/media/AdobeStock_339503989.5508392674d2e926cc76.jpeg",
     "static/media/AdobeStock_303004081.jpeg": "/atlasconsulting-no.github.io/static/media/AdobeStock_303004081.9110eab9a9a555b3e64b.jpeg",
     "static/media/Sander.jpg": "/atlasconsulting-no.github.io/static/media/Sander.f3b8b75090c5d655856e.jpg",
     "static/media/Bernardo.jpg": "/atlasconsulting-no.github.io/static/media/Bernardo.8bd5f366ee93dbd5112a.jpg",
     "index.html": "/atlasconsulting-no.github.io/index.html",
-    "main.43e3b57f.css.map": "/atlasconsulting-no.github.io/static/css/main.43e3b57f.css.map",
-    "main.921555ac.js.map": "/atlasconsulting-no.github.io/static/js/main.921555ac.js.map"
+    "main.dcc8a697.css.map": "/atlasconsulting-no.github.io/static/css/main.dcc8a697.css.map",
+    "main.8d4d385d.js.map": "/atlasconsulting-no.github.io/static/js/main.8d4d385d.js.map"
   },
   "entrypoints": [
-    "static/css/main.43e3b57f.css",
-    "static/js/main.921555ac.js"
+    "static/css/main.dcc8a697.css",
+    "static/js/main.8d4d385d.js"
   ]
 }
