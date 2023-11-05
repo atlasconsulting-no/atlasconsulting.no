@@ -42,10 +42,10 @@ const Navbar = () => {
                 <div className='navbar-content flex fw-7'>
                     <div className='brand-and-toggler flex flex-between w-100'>
                         <Link to="/" className='navbar-brand' onClick={moveToTop}>
-                        <div className='flex'>
-                            <img src={images.logo_img} onClick={moveToTop} />
+                            <div className="logo-container">
+                                <img src={images.logo_img} alt="Logo" />
+                            </div>
                             Atlas Consulting
-                        </div>
                         </Link>
                         <div type="button" className={`hamburger-menu ${navToggle ? 'hamburger-menu-change' : ""}`} onClick={navHandler}>
                             <div className='bar-top'></div>

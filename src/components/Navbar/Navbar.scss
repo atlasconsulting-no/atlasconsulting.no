@@ -16,6 +16,9 @@
 .navbar-brand img {
     max-width: 160px;
     max-height: 96px;
+    height: 100%;
+    width: auto;
+    object-fit: contain; 
 }
 
 .navbar-brand div {
