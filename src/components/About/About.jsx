@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div className="content-right">
             <div className="section-t">
-              <h3 className="text-start">About Us</h3>
+              <h3 className="text-center">About Us</h3>
             </div>
             <p className="text text-justify">
               We are a team of dedicated IT professionals, united
