@@ -6,14 +6,12 @@ const About = () => {
   return (
     <section className="about section-p bg-dark" id="about">
       <div className="container">
-        <div className="about-content grid text-center">
+        <div className="about-content grid">
           <div className="content-left">
             <img src={images.about_main_img} alt="" />
           </div>
-          <div className="content-right">
-            <div className="section-t">
-              <h3 className="text-center">About Us</h3>
-            </div>
+          <div className="content-right section-t">
+            <h3 className="text-center">About Us</h3>
             <p className="text text-justify">
               We are a team of dedicated IT professionals, united
               by a goal - empowering businesses through technology. Offering
