@@ -37,7 +37,6 @@ const Consultants = () => {
                                     <b className='item-name'>{consultant.name}</b>
                                     <p className='item-text text'><a href={`mailto:${consultant.email}`}><FaEnvelopeOpen style={{ fill: gradient }} />&nbsp; {consultant.email}</a></p>
                                     <p className='item-text text'> <FaPhoneAlt style={{ fill: gradient }} /> &nbsp; {consultant.phone}</p>
-                                    {/* Adding a clickable LinkedIn link */}
                                     <p className='item-text text'>
                                         <FaLinkedin style={{ fill: gradient }} /> &nbsp;
                                         <a href={`https://www.linkedin.com/in/${consultant.linkedin}`} target="_blank" rel="noopener noreferrer">
