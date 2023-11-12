@@ -1,7 +1,5 @@
 import images from "./images";
 import {FaRocket, FaLaptopCode, FaFileAlt, FaPhoneAlt, FaEnvelopeOpen, FaMapMarkerAlt} from "react-icons/fa";
-import {BiDollarCircle} from "react-icons/bi";
-import {ImMagicWand} from "react-icons/im";
 import {AiOutlineReload} from "react-icons/ai";
 import {VscChecklist} from "react-icons/vsc";
 
@@ -26,24 +24,6 @@ const services = [
         title: "High Performance Computing",
         text: "Optimize computational efficiency for your time and memory sensitive applications"
     },
-    // {
-    //     id: 4, 
-    //     icon: <FaEdit style = {{ fill: gradient }} />,
-    //     title: "Content Creation",
-    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    // },
-    // {
-    //     id: 5,
-    //     icon: <ImMagicWand style = {{ fill: gradient }} />,
-    //     title: "Grpahic Design",
-    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    // },
-    // {
-    //     id: 6,
-    //     icon: <FaShoppingCart style = {{ fill: gradient }} />,
-    //     title: "Media Buying",
-    //     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing"
-    // }
 ];
 
 const about = [
