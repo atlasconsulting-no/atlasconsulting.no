@@ -42,7 +42,7 @@ const consultants = [
         image: images.bernardo_img,
         email: "bernardo@atlasconsulting.no",
         phone: "+47 944 79 592",
-        linkedin: "bernardo-lino-de-oliveira-a844943a",
+        linkedin: "bernardo-lino-de-oliveira",
         text: "Bernardo has a strong background in software development and mathematical modelling. He holds a PhD in Scientific Computing and a track record in multiple fields. This includes extensive experience in the energy sector, bridging the gap between technical teams, business and end users.",        
     },
 ]
