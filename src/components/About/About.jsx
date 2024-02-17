@@ -13,11 +13,9 @@ const About = () => {
           <div className="content-right section-t">
             <h3 className="text-center">About Us</h3>
             <p className="text text-justify">
-              We are a team of dedicated IT professionals, united
-              by a goal - empowering businesses through technology. Offering
-              services in data analytics, digital innovation and project management, 
-              we foster a culture of continuous improvement that benefits our teams
-              and clients.
+              Atlas Consulting is a company with a clear mission and goal - empowering businesses through technology.
+              Offering services in software development, digital innovation and information security, 
+              we foster a culture of continuous improvement with the focus of always delivering the most value to our clients.
               We believe that the best consultants are those who enjoy their work
               and strive to continuously develop high quality software and themselves.
             </p>

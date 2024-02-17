@@ -1,6 +1,5 @@
 import images from "./images";
-import {FaRocket, FaLaptopCode} from "react-icons/fa";
-import {VscChecklist} from "react-icons/vsc";
+import {FaRocket, FaLaptopCode, FaShieldAlt} from "react-icons/fa";
 
 const gradient = "url(#color-gradient)" ;
 
@@ -13,9 +12,9 @@ const services = [
     },
     {
         id: 2,
-        icon: <VscChecklist style = {{ fill: gradient }} />,
-        title: "Project Management",
-        text: "Realize value, avoid cost and time overruns with Agile best practices"
+        icon: <FaShieldAlt style={{ fill: gradient }} />,
+        title: "Information Security",
+        text: "Secure your systems and data assets with cutting-edge information security solutions"
     },
     {
         id: 3,
@@ -26,16 +25,6 @@ const services = [
 ];
 
 const consultants = [
-    {
-        id: 19,
-        name: "Sander Knutsen",
-        image: images.sander_img,
-        email: "sander@atlasconsulting.no",
-        phone: "+47 951 60 939",
-        linkedin: "sander-knutsen-8b6b941a4",
-        text: "Sander holds a masters degree in Digital Economy and Management. He is always update on how the latest tech- and ESG trends will impact business. Sander is also a skilled Scrum Master and IT-project manager and has experience in corporate entrepreneurship."   
-        
-    },
     {
         id: 20,
         name: "Bernardo Lino de Oliveira",
